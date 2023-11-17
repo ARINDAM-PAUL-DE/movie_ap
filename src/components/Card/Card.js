@@ -8,7 +8,7 @@ const Card = ({ movie }) => {
 
     const [isLoading, setIsLoading] = useState(true);
 
-    useState(() => {
+    useEffect(() => {
         setTimeout(() => {
             setIsLoading(false)
         }, 1500)
@@ -18,7 +18,7 @@ const Card = ({ movie }) => {
             {
                 isLoading
                     ?
-                    <div className="cars">
+                    <div className="cards">
                         <SkeletonTheme color="#202020" highlightColor="#444">
                             <Skeleton height={300} duration={2} />
                         </SkeletonTheme>
