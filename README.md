@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Movie App with ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-17.0.2-blue)
+![CSS](https://img.shields.io/badge/CSS-3.0-orange)
+![TMDB API](https://img.shields.io/badge/TMDB%20API-v3-red)
 
-## Available Scripts
+This Movie App is built using ReactJS and CSS, fetching data from TMDB API for movie information. It incorporates React Carousel for smooth scrolling of movie lists and React View Skeleton for pre-loading skeleton screens.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Header Section:** Navigational access to Popular, Upcoming, and Top Rated movies.
+- **React Carousel:** Smooth carousel view for an enhanced movie browsing experience.
+- **React View Skeleton:** Pre-loading skeleton screens to improve perceived loading times.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository: `git clone https://github.com/your-username/movie-app.git`
+2. Navigate to the project directory: `cd movie-app`
+3. Install dependencies: `npm install`
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Obtain your TMDB API key from [TMDB](https://www.themoviedb.org/documentation/api) and replace `'YOUR_API_KEY'` in the code with your key.
+2. Start the development server: `npm start`
+3. Access the app in your browser at `http://localhost:3000`
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **ReactJS:** Frontend library for building user interfaces.
+- **CSS:** Styling the application components.
+- **TMDB API:** Fetching movie data for display in the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributions are welcome! Feel free to open issues or pull requests for any improvements or additional features.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acknowledgements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React Carousel:** [Link to React Carousel](https://example.com/react-carousel)
+- **React View Skeleton:** [Link to React View Skeleton](https://example.com/react-view-skeleton)
+- **TMDB API Documentation:** [TMDB API Docs](https://www.themoviedb.org/documentation/api)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
